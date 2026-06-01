@@ -39,7 +39,7 @@ const Footer = () => {
               <p className="text-gray-500 text-sm">Professional care and support to help you feel better, every day.</p>
             </div> */}
             <div>
-              <h4 className="font-semibold text-green-800 mb-4">ABOUT MIBO</h4>
+              <h4 className="font-semibold text-[#34b9a5] mb-4">ABOUT MIBO</h4>
               <ul className="space-y-2 text-sm text-gray-500">
                 <li>About Us</li>
                 <li>Careers</li>
@@ -50,7 +50,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-green-800 mb-4">SERVICES</h4>
+              <h4 className="font-semibold text-[#34b9a5] mb-4">SERVICES</h4>
               <ul className="space-y-2 text-sm text-gray-500">
                 <li>Adult Therapy</li>
                 <li>Adult Psychiatry</li>
@@ -62,7 +62,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-green-800 mb-4">CONDITIONS</h4>
+              <h4 className="font-semibold text-[#34b9a5] mb-4">CONDITIONS</h4>
               <ul className="space-y-2 text-sm text-gray-500">
                 <li>Depression</li>
                 <li>Anxiety</li>
@@ -75,7 +75,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-green-800 mb-4">PROFESSIONALS</h4>
+              <h4 className="font-semibold text-[#34b9a5] mb-4">PROFESSIONALS</h4>
               <ul className="space-y-2 text-sm text-gray-500">
                 <li>Therapists</li>
                 <li>Psychiatrists</li>
@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="border-t border-gray-100 mt-8 pt-8 text-center text-sm text-gray-400">
-            © 2026 Mibo Care. All rights reserved.
+            © 2026 <span className="font-semibold text-[#34b9a5]">Mibo Care  </span>. All rights reserved.
           </div>
         </div>
       </footer>

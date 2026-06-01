@@ -4,6 +4,32 @@ import { Star, MapPin, Wifi, Coffee, Car, Accessibility, Building, Library, Tree
 import coverImage from "../../assets/coverImage.jpg";
 import MIBOOFFICE from "../../assets/miboOffice.jpg";
 
+
+
+const SupportIcon = () => (
+  <svg className="w-16 h-16 text-teal-500 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M12 2a10 10 0 0 0-10 10c0 4.42 3.58 8 8 8v4l4-4h4a10 10 0 0 0 10-10 10 10 0 0 0-10-10z" />
+    <path d="M12 16v-4" />
+    <circle cx="12" cy="12" r="1" fill="currentColor" />
+  </svg>
+);
+
+const LovedOnesIcon = () => (
+  <svg className="w-16 h-16 text-teal-500 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+    <circle cx="12" cy="7" r="4" />
+    <path d="M17 11l2 2 4-4" />
+  </svg>
+);
+
+const LanguageIcon = () => (
+  <svg className="w-16 h-16 text-teal-500 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M5 8h14M9 4v4M15 4v4M4 16h16M8 20v-4M16 20v-4" />
+    <circle cx="12" cy="12" r="10" />
+    <path d="M12 2a15 15 0 0 0 0 20 15 15 0 0 0 0-20z" />
+  </svg>
+);
+
 export default function Home() {
   return (
     <div>
@@ -219,7 +245,8 @@ export default function Home() {
       <section className="bg-gray-50 py-20 px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-blue-900">
-            Tailored for those who lead, seek, and listen
+            Tailored for those who </h2>
+           <h2 className="text-4xl font-bold text-[#34b9a5]"> lead, seek, and listen
           </h2>
           <div className="grid md:grid-cols-5 gap-6 mt-12">
             <div className="bg-white p-6 rounded-xl shadow-sm">
@@ -231,25 +258,25 @@ export default function Home() {
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-bold text-blue-900">For Individuals</h3>
               <p className="text-gray-600 mt-2 text-sm">
-                Tailored experiences for all ages, focusing on mental and long‑term personal goals.
+                Tailored experiences designed for self-growth, mental well-being, and achieving personal goals.
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-bold text-blue-900">For Couples</h3>
               <p className="text-gray-600 mt-2 text-sm">
-                Strengthen your bond, resolve challenges, and grow together.
+                Workshops and resources that help couples improve understanding, strengthen bonds, and grow together.
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-bold text-blue-900">For Children</h3>
               <p className="text-gray-600 mt-2 text-sm">
-                Engaging, age‑appropriate activities that support emotional development and social skills.
+                Engaging, age‑appropriate activities that support emotional development, creativity, and confidence.
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <h3 className="text-xl font-bold text-blue-900">For Corporate</h3>
               <p className="text-gray-600 mt-2 text-sm">
-                Empowering mental wellness programs, leadership development, and mental health education.
+                Enterprise-ready infrastructure designed to deliver real-time impact data, enabling tailored programs that drive measurable outcomes.
               </p>
             </div>
           </div>
@@ -260,30 +287,73 @@ export default function Home() {
       <section className="bg-white py-20 px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-blue-900 text-center">
-            Mental Health Concerns <span className="text-green-500">We Care For</span>
-          </h2>
+            Mental Health Concerns</h2>
+             <h2 className="text-4xl font-bold text-[#34b9a5]  text-center">We Care For</h2>          
           <p className="text-center text-gray-600 mt-3 mb-12 max-w-2xl mx-auto">
-            We offer comprehensive support for 100+ mental health conditions. Explore some common concerns below.
+           Mibo offers comprehensive support for 30+ mental health conditions. Explore some of the most common concerns below to see how we approach care.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-2xl">
               <h3 className="text-2xl font-bold text-blue-900">Depression</h3>
+              <p>Affects 5% million people worldwide</p>
               <p className="text-gray-600 mt-2">
-                Symptoms include persistent sadness, loss of interest, and changes in appetite and sleep patterns.
+               Depression is more than just feeling sad. We offer compassionate care and evidence-based treatments to help you find hope and find joy again.
               </p>
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                TREATMENT APPORACHES
+              </h4>
+              <div className="flex flex-wrap gap-3 mt-2">
+                {["Medication Management", "LifeStyle Changes", "Support Groups"].map((item) => (
+                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                Book Consultation
+              </button>
             </div>
             <div className="bg-gray-50 p-6 rounded-2xl">
-              <h3 className="text-2xl font-bold text-blue-900">Anxiety Disorder</h3>
+              <h3 className="text-2xl font-bold text-blue-900">Generalized Anxiety Disorder</h3>
+              <p>1 in 14 people affected globally</p>
               <p className="text-gray-600 mt-2">
-                Symptoms include excessive worry, restlessness, and difficulty concentrating.
+               Living with constant worry can be exhausting. Our specialized approaches help you manage anxiety and reclaim peace.
               </p>
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                TREATMENT APPORACHES
+              </h4>
+              <div className="flex flex-wrap gap-3 mt-2">
+                {[ "Relaxation Training", "Exposure Thearapy", "Stress Management","Mindfulness techniques",].map((item) => (
+                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                Book Consultation
+              </button>
             </div>
             <div className="bg-gray-50 p-6 rounded-2xl">
-              <h3 className="text-2xl font-bold text-blue-900">Obsessive‑Compulsive Disorder</h3>
+              <h3 className="text-2xl font-bold text-blue-900">Obsessive Compulsive Disorder</h3>
+              <p>Affects 2-3% of population</p>
               <p className="text-gray-600 mt-2">
-                Symptoms include intrusive thoughts and compulsive behaviors.
+                OCD can feel overwhelming, but you're not alone. We provide specialized therapy to break free from compulsive cycles.
               </p>
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                TREATMENT APPORACHES
+              </h4>
+              <div className="flex flex-wrap gap-3 mt-2">
+                {["ERP Therapy", "Medication", "Mindfulness", "Habit Reversal"].map((item) => (
+                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                Book Consultation
+              </button>
             </div>
+            
           </div>
         </div>
       </section>
@@ -315,28 +385,90 @@ export default function Home() {
       </section>
 
       {/* ========== CARE IN YOUR LANGUAGE + SUPPORT SHAPED AROUND YOU ========== */}
+
+     <section className="bg-white py-20 px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8">
+          
+          {/* Card 1 - Support shaped around you */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+            <div className="flex justify-center items-center py-8 bg-gray-50">
+              <SupportIcon />
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-bold text-blue-900 relative inline-block pb-2 mb-3">
+                Support shaped around you
+                <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-teal-500 rounded-full"></span>
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                We look at your needs and experiences to connect you with someone who truly understands your journey and what support looks like.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 2 - Care that includes your loved ones */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+            <div className="flex justify-center items-center py-8 bg-gray-50">
+              <LovedOnesIcon />
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-bold text-blue-900 relative inline-block pb-2 mb-3">
+                Care that includes your loved ones
+                <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-teal-500 rounded-full"></span>
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                We bring your loved ones into the process with joint sessions, updates and resources—so you get the right support, together.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 3 - Care in your language, built for your life */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+            <div className="flex justify-center items-center py-8 bg-gray-50">
+              <LanguageIcon />
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-bold text-blue-900 relative inline-block pb-2 mb-3">
+                Care in your language, built for your life
+                <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-teal-500 rounded-full"></span>
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                We connect you with experts who understand your language and cultural context—so you can express yourself freely and feel truly understood, without over-explaining or anything getting lost in translation.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+
+
+
+
+
+
       <section className="bg-white py-20 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center">
               <div className="text-4xl mb-4">🗣️</div>
-              <h3 className="text-2xl font-bold text-blue-900">Care in your language, built for your life</h3>
+              <h3 className="text-2xl font-bold text-blue-900">Support shaped around you</h3>
               <p className="text-gray-600 mt-3">
-                We work with you to understand your needs and provide tailored support. We’re here to help you live your life to the fullest.
+                We look at your needs and experiences to connect you with someone who truly understand your journey and what support look like.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🫂</div>
-              <h3 className="text-2xl font-bold text-blue-900">Support shaped around you</h3>
+              <h3 className="text-2xl font-bold text-blue-900">Care that includes your loved ones</h3>
               <p className="text-gray-600 mt-3">
-                We work with you to understand your needs and provide tailored support. We’re here to help you live your life to the fullest.
+                We bring your loved ones into the process with joint sessions, updates and resources-so you get the right support, together.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">❤️</div>
-              <h3 className="text-2xl font-bold text-blue-900">Care that includes your loved ones</h3>
+              <h3 className="text-2xl font-bold text-blue-900">Care in your language, build for your  life</h3>
               <p className="text-gray-600 mt-3">
-                We work with you to understand your needs and provide tailored support. We’re here to help you live your life to the fullest.
+                We connect you with experts who understand your language and cultural context-so you can express yoursellf freely and feel truly understood, without over-explaining or anything getting lost in translation.
               </p>
             </div>
           </div>
@@ -346,167 +478,178 @@ export default function Home() {
 
 
 {/* ========== CARE AND SUPPORT NEAR YOU ========== */}
+
 <section className="bg-gray-50 py-20 px-8">
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl font-bold text-blue-900 text-center">
-      Care and Support Near You
-    </h2>
-    <p className="text-center text-gray-600 mt-3 mb-12 max-w-2xl mx-auto">
-      Our centres across India bring expert mental health care close to you.
-      Each location is designed for comfort, privacy, and healing.
-    </p>
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl font-bold text-blue-900 text-center">
+          Care and Support Near You
+        </h2>
+        <p className="text-center text-gray-600 mt-3 mb-12 max-w-2xl mx-auto">
+          Our centres across India bring expert mental health care close to you.
+          Each location is designed for comfort, privacy, and healing.
+        </p>
 
-    <div className="grid md:grid-cols-3 gap-8">
-      
-      {/* Bengaluru Card */}
-      <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-        {/* Top half: image */}
-        <div
-          className="h-48 bg-cover bg-center"
-          style={{ backgroundImage: `url(${MIBOOFFICE})` }}
-        ></div>
-        
-        {/* Bottom half: white content */}
-        <div className="p-6">
-          <div className="flex justify-between items-start">
-            <h3 className="text-2xl font-bold text-blue-900">Bengaluru</h3>
-            <div className="flex items-center bg-green-50 px-2 py-1 rounded-lg">
-              <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-              <span className="ml-1 text-sm font-semibold text-gray-700">4.8</span>
-              <span className="text-xs text-gray-500 ml-1">(642)</span>
-            </div>
-          </div>
-          <p className="text-gray-600 text-sm mt-2">
-            Our Bengaluru centres offer professional mental health care in a serene environment.
-          </p>
+        <div className="grid md:grid-cols-3 gap-8">
           
-          <div className="mt-4">
-            <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide">LOCATIONS IN BENGALURU</h4>
-            <ul className="mt-2 space-y-1">
-              {["Indiranagar", "Whitefield", "Koramangala", "Jayanagar"].map((loc) => (
-                <li key={loc} className="text-gray-600 text-sm flex items-center">
-                  <MapPin className="w-3 h-3 mr-2 text-green-500" /> {loc}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* Bengaluru Card */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
+            <div className="relative">
+              <img src={MIBOOFFICE} alt="Bengaluru" className="w-full h-64 object-cover" />
+              <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
+                <h3 className="font-bold text-2xl text-gray-800">Bengaluru</h3>
+              </div>
+              <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
+                <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                <span className="font-semibold">4.8</span>
+                <span className="text-gray-500 text-sm">(642)</span>
+              </div>
+            </div>
 
-          <div className="mt-4">
-            <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide">AMENITIES</h4>
-            <div className="flex flex-wrap gap-3 mt-2">
-              <Car className="w-5 h-5 text-gray-500" title="Free Parking" > Free </Car>
-              <Accessibility className="w-5 h-5 text-gray-500" title="Wheelchair Accessible" />
-              <Building className="w-5 h-5 text-gray-500" title="AC Consultation Rooms" />
-              <Coffee className="w-5 h-5 text-gray-500" title="Waiting Lounge" />
+            <div className="p-6 flex flex-col flex-grow">
+              <p className="text-gray-600 text-sm">
+                Our Bengaluru centres offer professional mental health care in a serene environment.
+              </p>
+
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                LOCATIONS IN BENGALURU
+              </h4>
+              <div className="grid grid-cols-2 gap-y-3 mt-2">
+                {["Indiranagar", "Whitefield", "Koramangala", "Jayanagar"].map((loc) => (
+                  <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
+                    <MapPin className="w-4 h-4 text-teal-500" />
+                    <span>{loc}</span>
+                  </div>
+                ))}
+              </div>
+
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                AMENITIES
+              </h4>
+              <div className="flex flex-wrap gap-3 mt-2">
+                {["Free Parking", "Wheelchair Accessible", "AC Consultation Rooms", "Waiting Lounge"].map((item) => (
+                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                    {item}
+                  </span>
+                ))}
+              </div>
+
+              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                View Centre Details
+              </button>
             </div>
           </div>
 
-          <button className="mt-6 bg-blue-600 hover:bg-green-700 text-white font-medium text-sm py-2 px-4 rounded-full transition flex items-center justify-center gap-2 w-fit">
-            View Centre Details <span>→</span>
-          </button>
+          {/* Mumbai Card */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
+            <div className="relative">
+              <img src={MIBOOFFICE} alt="Mumbai" className="w-full h-64 object-cover" />
+              <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
+                <h3 className="font-bold text-2xl text-gray-800">Mumbai</h3>
+              </div>
+              <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
+                <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                <span className="font-semibold">4.7</span>
+                <span className="text-gray-500 text-sm">(289)</span>
+              </div>
+            </div>
+
+            <div className="p-6 flex flex-col flex-grow">
+              <p className="text-gray-600 text-sm">
+                Find peace and professional care at our Mumbai locations.
+              </p>
+
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                LOCATIONS IN MUMBAI
+              </h4>
+              <div className="grid grid-cols-2 gap-y-3 mt-2">
+                {["Bandra", "Andheri", "Powai", "Lower Parel"].map((loc) => (
+                  <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
+                    <MapPin className="w-4 h-4 text-teal-500" />
+                    <span>{loc}</span>
+                  </div>
+                ))}
+              </div>
+
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                AMENITIES
+              </h4>
+              <div className="flex flex-wrap gap-3 mt-2">
+                {["Metro Access", "Valet Parking", "Cafeteria", "Library"].map((item) => (
+                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                    {item}
+                  </span>
+                ))}
+              </div>
+
+              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                View Centre Details
+              </button>
+            </div>
+          </div>
+
+          {/* Kochi Card */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
+            <div className="relative">
+              <img src={MIBOOFFICE} alt="Kochi" className="w-full h-64 object-cover" />
+              <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
+                <h3 className="font-bold text-2xl text-gray-800">Kochi</h3>
+              </div>
+              <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
+                <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                <span className="font-semibold">4.9</span>
+                <span className="text-gray-500 text-sm">(153)</span>
+              </div>
+            </div>
+
+            <div className="p-6 flex flex-col flex-grow">
+              <p className="text-gray-600 text-sm">
+                Experience compassionate care in our Kochi facilities designed for professional care.
+              </p>
+
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                LOCATIONS IN KOCHI
+              </h4>
+              <div className="grid grid-cols-2 gap-y-3 mt-2">
+                {["Marine Drive", "Kakkanaad", "Ernakulam", "Edappally"].map((loc) => (
+                  <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
+                    <MapPin className="w-4 h-4 text-teal-500" />
+                    <span>{loc}</span>
+                  </div>
+                ))}
+              </div>
+
+              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                AMENITIES
+              </h4>
+              <div className="flex flex-wrap gap-3 mt-2">
+                {["Sea View", "Garden Area", "Yoga Studio", "Meditation Space"].map((item) => (
+                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                    {item}
+                  </span>
+                ))}
+              </div>
+
+              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                View Centre Details
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-
-      {/* Mumbai Card */}
-      <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-        <div
-          className="h-48 bg-cover bg-center"
-          style={{ backgroundImage: `url(${MIBOOFFICE})` }}
-        ></div>
-        <div className="p-6">
-          <div className="flex justify-between items-start">
-            <h3 className="text-2xl font-bold text-blue-900">Mumbai</h3>
-            <div className="flex items-center bg-green-50 px-2 py-1 rounded-lg">
-              <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-              <span className="ml-1 text-sm font-semibold text-gray-700">4.7</span>
-              <span className="text-xs text-gray-500 ml-1">(289)</span>
-            </div>
-          </div>
-          <p className="text-gray-600 text-sm mt-2">
-            Find peace and professional care at our Mumbai locations.
-          </p>
-          
-          <div className="mt-4">
-            <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide">LOCATIONS IN MUMBAI</h4>
-            <ul className="mt-2 space-y-1">
-              {["Bandra", "Powai", "Andheri", "Lower Parel"].map((loc) => (
-                <li key={loc} className="text-gray-600 text-sm flex items-center">
-                  <MapPin className="w-3 h-3 mr-2 text-green-500" /> {loc}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="mt-4">
-            <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide">AMENITIES</h4>
-            <div className="flex flex-wrap gap-3 mt-2 items-center">
-              <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3M12 2a10 10 0 100 20 10 10 0 000-20z" />
-              </svg>
-              <span className="text-xs text-gray-600">Metro Access</span>
-              <Coffee className="w-5 h-5 text-gray-500" title="Cafeteria" />
-              <span className="text-xs text-gray-600">Valet Parking</span>
-              <Library className="w-5 h-5 text-gray-500" title="Library" />
-            </div>
-          </div>
-
-          <button className="mt-6 bg-blue-600 hover:bg-green-700 text-white font-medium text-sm py-2 px-4 rounded-full transition flex items-center justify-center gap-2 w-fit">
-            View Centre Details <span>→</span>
-          </button>
-        </div>
-      </div>
-
-      {/* Kochi Card */}
-      <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
-        <div
-          className="h-48 bg-cover bg-center"
-          style={{ backgroundImage: `url(${MIBOOFFICE})` }}
-        ></div>
-        <div className="p-6">
-          <div className="flex justify-between items-start">
-            <h3 className="text-2xl font-bold text-blue-900">Kochi</h3>
-            <div className="flex items-center bg-green-50 px-2 py-1 rounded-lg">
-              <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-              <span className="ml-1 text-sm font-semibold text-gray-700">4.9</span>
-              <span className="text-xs text-gray-500 ml-1">(153)</span>
-            </div>
-          </div>
-          <p className="text-gray-600 text-sm mt-2">
-            Experience compassionate care in our Kochi facilities designed for professional care.
-          </p>
-          
-          <div className="mt-4">
-            <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide">LOCATIONS IN KOCHI</h4>
-            <ul className="mt-2 space-y-1">
-              {["Marine Drive", "Kakkanaad", "Ernakulam", "Edappally"].map((loc) => (
-                <li key={loc} className="text-gray-600 text-sm flex items-center">
-                  <MapPin className="w-3 h-3 mr-2 text-green-500" /> {loc}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="mt-4">
-            <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide">AMENITIES</h4>
-            <div className="flex flex-wrap gap-3 mt-2">
-              <TreePine className="w-5 h-5 text-gray-500" title="Sea View" />
-              <span className="text-xs text-gray-600">Garden Area</span>
-              <Dumbbell className="w-5 h-5 text-gray-500" title="Yoga Studio" />
-              <span className="text-xs text-gray-600">Meditation Space</span>
-
-            </div>
-          </div>
-
-          <button className="mt-6 bg-blue-600 hover:bg-green-700 text-white font-medium text-sm py-2 px-4 rounded-full transition flex items-center justify-center gap-2 w-fit">
-            View Centre Details <span>→</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
+
+
+
+{/* Sticky Book Appointment Button */}
+<div className="fixed bottom-6 right-6 z-50">
+    <button className="bg-[#34b9a5] hover:bg-[#2a9d8c] text-white px-6 py-3 rounded-full shadow-xl font-semibold transition duration-300">
+
+  {/* <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-xl font-semibold transition duration-300"> */}
+    Book Appointment
+  </button>
+</div>
 
 
 
