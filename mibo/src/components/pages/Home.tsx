@@ -1,11 +1,11 @@
 //import { Shield, Calendar, Users, HeartHandshake } from "lucide-react";
 
-import { Star, MapPin, Wifi, Coffee, Car, Accessibility, Building, Library, TreePine, Dumbbell, } from "lucide-react";
+import { Star, MapPin,} from "lucide-react";
 import { Users,User, Baby, HeartHandshake, Briefcase, Hospital,UserRound, Monitor } from "lucide-react";
-import { Flower2,MessageCircleHeart, CalendarDays,ArrowRight,} from "lucide-react";
+import { Flower2,MessageCircleHeart,} from "lucide-react";
 import { UserCheck, ShieldCheck, Clock3, } from "lucide-react";
 import { CloudRain, Brain, RefreshCw } from "lucide-react";
-import coverImage from "../../assets/coverImage.jpg";
+//import { Wifi, Coffee, Car, Accessibility, Building, Library, TreePine, Dumbbell, CalendarDays,ArrowRight, }from "lucide-react";
 import MIBOOFFICE from "../../assets/miboOffice.jpg";
 import library from "../../assets/library.jpg";
 import couple from "../../assets/couple.avif";
@@ -432,7 +432,6 @@ export default function Home() {
           <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
 
           <p className="text-gray-700 mt-3 font-medium">Reported improved emotional well-being</p>
-          <p className="text-xs text-gray-400 mt-2">↑ +28% vs industry avg</p>
         </div>
         {/* <!-- Card 2 - 87% with SVG (anxiety reduction / calm leaf) --> */}
         <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
@@ -441,11 +440,10 @@ export default function Home() {
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.636 5.818a9 9 0 0112.728 0M12 3v6m0 0-3-3m3 3 3-3M6 12h.01M12 12h.01M18 12h.01M5.818 18.364a9 9 0 0012.728 0M12 21v-6m0 0 3 3m-3-3-3 3" />
             </svg>
           </div>
-          <div className="text-5xl font-extrabold text-green-600">87%</div>
-          <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
+          <div className="text-5xl font-extrabold text-blue-600">87%</div>
+          <div className="w-16 h-1 bg-blue-500 my-4 mx-auto"></div>
 
           <p className="text-gray-700 mt-3 font-medium">Experienced reduction in anxiety levels</p>
-          <p className="text-xs text-gray-400 mt-2">Clinically validated outcomes</p>
         </div>
         {/* <!-- Card 3 - 76% with SVG (productivity / focus) --> */}
         <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
@@ -458,7 +456,6 @@ export default function Home() {
           <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
 
           <p className="text-gray-700 mt-3 font-medium">Felt more productive and focused at work</p>
-          <p className="text-xs text-gray-400 mt-2">Work engagement metrics</p>
         </div>
         {/* <!-- Card 4 - 94% with SVG (engagement / therapy retention) --> */}
         <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
@@ -467,11 +464,10 @@ export default function Home() {
               <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
           </div>
-          <div className="text-5xl font-extrabold text-green-600">94%</div>
-          <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
+          <div className="text-5xl font-extrabold text-blue-600">94%</div>
+          <div className="w-16 h-1 bg-blue-500 my-4 mx-auto"></div>
 
           <p className="text-gray-700 mt-3 font-medium">Showed higher engagement in therapy</p>
-          <p className="text-xs text-gray-400 mt-2">Consistent attendance & participation</p>
         </div>
       </div>
 

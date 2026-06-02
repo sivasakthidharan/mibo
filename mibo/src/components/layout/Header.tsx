@@ -1,8 +1,7 @@
-import { Phone,ChevronDown } from "lucide-react";
+import { Phone, } from "lucide-react";
 import { BsWhatsapp } from "react-icons/bs";
-//import logo from "../assets/logo.webp";
-//import logo from "../assets/logo.webp";
 import logo from "../../assets/logo.webp";
+//import {ChevronDown} from "lucide-react"
 
 const Header = () => {
   return (
