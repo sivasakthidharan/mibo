@@ -1,12 +1,19 @@
 import { Phone,ChevronDown } from "lucide-react";
 import { BsWhatsapp } from "react-icons/bs";
+//import logo from "../assets/logo.webp";
+//import logo from "../assets/logo.webp";
+import logo from "../../assets/logo.webp";
 
 const Header = () => {
   return (
     <nav className="flex justify-between items-center px-10 py-5 shadow-sm">
-      <h1 className="text-2xl font-bold text-blue-700">
-        Mibo
-      </h1>
+          <div>
+            <img
+              src={logo}
+              alt="logo"
+              className="h-12 w-auto "
+            />
+          </div>
 
         <div className="hidden md:flex items-center gap-x-8">
               <a href="#" className="text-gray-600 hover:text-teal-600 transition whitespace-nowrap">BOOK APPOINTMENT</a>
