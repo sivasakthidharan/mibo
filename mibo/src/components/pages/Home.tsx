@@ -46,16 +46,16 @@ export default function Home() {
     <div>
       {/* ========== HERO SECTION ========== */}
 
-      <section className="relative">
+      {/* <section className="relative">
         {/* Background Image */}
-        <img
+        {/*  <img
           src={sofaa}
           alt="Hero"
           className="w-full h-[700px] object-cover"
         />
 
         {/* Overlay Content */}
-        <div className="absolute top-24 left-24 max-w-xl">
+        {/*  <div className="absolute top-24 left-24 max-w-xl">
           <div className="max-w-7xl mx-auto px-10">
             <div className="max-w-xl">
               <h1 className="text-5xl font-bold text-[#1F2560]">
@@ -79,7 +79,7 @@ export default function Home() {
 
         {/* Bottom Floating Card */}
         {/* ========== FEATURE BOXES (4 cards) ========== */}
-        <div className="absolute bottom-[-50px] left-1/2 -translate-x-1/2 w-[90%] bg-white rounded-3xl shadow-lg p-8">
+         {/* <div className="absolute bottom-[-50px] left-1/2 -translate-x-1/2 w-[90%] bg-white rounded-3xl shadow-lg p-8">
           <div className="grid md:grid-cols-4 gap-6">
 
             <div>
@@ -124,7 +124,7 @@ export default function Home() {
 
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 {/* 
@@ -170,6 +170,246 @@ export default function Home() {
           </div>
         </div>
       </section> */}
+
+
+             {/* <section className="relative overflow-hidden">
+      {/* Background Image */}
+                {/* <img
+                  src={sofaa}
+                  alt="Hero"
+                  className="w-full h-[500px] sm:h-[550px] md:h-[650px] lg:h-[700px] object-cover"
+                />
+
+                {/* Overlay Content - now properly positioned on all screens */}
+                {/* <div className="absolute inset-0 flex items-center justify-center sm:justify-start sm:items-start sm:top-24 sm:left-24 sm:right-auto sm:bottom-auto">
+                  <div className="max-w-7xl mx-auto w-full px-4 sm:px-0">
+                    <div className="max-w-full sm:max-w-xl text-center sm:text-left">
+                      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1F2560] drop-shadow-sm">
+                        Welcome to Mibo
+                      </h1>
+
+                      <p className="mt-4 sm:mt-6 text-xl sm:text-2xl md:text-3xl text-gray-700 leading-relaxed">
+                        Professional care and support to help you feel better, every day.
+                      </p>
+
+                      <button className="mt-6 sm:mt-8 bg-green-500 hover:bg-green-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg font-semibold flex items-center gap-3 mx-auto sm:mx-0 shadow-md">
+                        Book Appointment
+                        <span className="bg-white text-green-500 rounded-full w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center transition-transform group-hover:translate-x-1">
+                          →
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Feature Boxes - responsive positioning */}
+                {/* <div className="relative md:absolute md:bottom-[-50px] md:left-1/2 md:-translate-x-1/2 w-full md:w-[90%] bg-white rounded-3xl shadow-lg p-6 md:p-8 mt-12 md:mt-0 mx-auto z-10">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                    {/* Card 1 */}
+                  {/*   <div className="text-center md:text-left">
+                      <UserCheck className="w-10 h-10 sm:w-12 sm:h-12 text-green-500 mx-auto md:mx-0" />
+                      <h3 className="font-semibold text-[#1F2560] mt-3">
+                        Trusted Professionals
+                      </h3>
+                      <p className="text-gray-500 mt-2 text-sm sm:text-base">
+                        Experienced and certified mental health experts.
+                      </p>
+                    </div>
+
+                    {/* Card 2 */}
+                     {/*<div className="text-center md:text-left">
+                      <ShieldCheck className="w-10 h-10 sm:w-12 sm:h-12 text-blue-500 mx-auto md:mx-0" />
+                      <h3 className="font-semibold text-[#1F2560] mt-3">
+                        Confidential & Secure
+                      </h3>
+                      <p className="text-gray-500 mt-2 text-sm sm:text-base">
+                        Your privacy is our top priority.
+                      </p>
+                    </div>
+
+                    {/* Card 3 */}
+                    {/* <div className="text-center md:text-left">
+                      <HeartHandshake className="w-10 h-10 sm:w-12 sm:h-12 text-pink-500 mx-auto md:mx-0" />
+                      <h3 className="font-semibold text-[#1F2560] mt-3">
+                        Personalized Care
+                      </h3>
+                      <p className="text-gray-500 mt-2 text-sm sm:text-base">
+                        Tailored support for your unique needs.
+                      </p>
+                    </div>
+
+                    {/* Card 4 */}
+                     {/*<div className="text-center md:text-left">
+                      <Clock3 className="w-10 h-10 sm:w-12 sm:h-12 text-purple-500 mx-auto md:mx-0" />
+                      <h3 className="font-semibold text-[#1F2560] mt-3">
+                        Flexible & Convenient
+                      </h3>
+                      <p className="text-gray-500 mt-2 text-sm sm:text-base">
+                        Online and in-person sessions available.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                      </section> */}
+
+
+
+        {/* <section className="relative">
+      {/* Background Image */}
+      {/*<img
+        src={sofaa}
+        alt="Hero"
+        className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] object-cover"
+      />
+
+      {/* Overlay Content */}
+      {/*<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:top-24 sm:left-24 sm:translate-x-0 sm:translate-y-0 w-full sm:w-auto px-4 sm:px-0">
+        <div className="max-w-7xl mx-auto">
+          <div className="max-w-full sm:max-w-xl text-center sm:text-left">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1F2560]">
+              Welcome to Mibo
+            </h1>
+
+            <p className="mt-4 sm:mt-6 text-xl sm:text-2xl md:text-3xl text-gray-600 leading-relaxed">
+              Professional care and support to help you feel better, every day.
+            </p>
+
+            <button className="mt-6 sm:mt-8 bg-green-500 hover:bg-green-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg font-semibold flex items-center gap-3 mx-auto sm:mx-0">
+              Book Appointment
+              <span className="bg-white text-green-500 rounded-full w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center">
+                →
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Feature Boxes (4 cards) */}
+     {/* <div className="relative md:absolute md:bottom-[-50px] md:left-1/2 md:-translate-x-1/2 w-full md:w-[90%] bg-white rounded-3xl shadow-lg p-6 md:p-8 mt-8 md:mt-0 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="text-center md:text-left">
+            <UserCheck className="w-10 h-10 sm:w-12 sm:h-12 text-green-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Trusted Professionals
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Experienced and certified mental health experts.
+            </p>
+          </div>
+
+          <div className="text-center md:text-left">
+            <ShieldCheck className="w-10 h-10 sm:w-12 sm:h-12 text-blue-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Confidential & Secure
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Your privacy is our top priority.
+            </p>
+          </div>
+
+          <div className="text-center md:text-left">
+            <HeartHandshake className="w-10 h-10 sm:w-12 sm:h-12 text-pink-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Personalized Care
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Tailored support for your unique needs.
+            </p>
+          </div>
+
+          <div className="text-center md:text-left">
+            <Clock3 className="w-10 h-10 sm:w-12 sm:h-12 text-purple-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Flexible & Convenient
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Online and in-person sessions available.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+      */}
+<section className="relative overflow-hidden">
+      {/* Background Image */}
+      <img
+        src={sofaa}
+        alt="Hero"
+        className="w-full h-[550px] sm:h-[550px] md:h-[650px] lg:h-[700px] object-cover"
+      />
+
+      {/* Overlay Content - adjusted for mobile to prevent button cutoff */}
+      <div className="absolute top-0 left-0 w-full h-full sm:top-24 sm:left-24 sm:w-auto sm:h-auto">
+        <div className="max-w-7xl mx-auto w-full px-4 pt-12 sm:pt-0 sm:px-0">
+          <div className="max-w-full sm:max-w-xl text-center sm:text-left">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1F2560] drop-shadow-sm">
+              Welcome to Mibo
+            </h1>
+
+            <p className="mt-4 sm:mt-6 text-xl sm:text-2xl md:text-3xl text-gray-700 leading-relaxed">
+              Professional care and support to help you feel better, every day.
+            </p>
+
+            <button className="mt-6 sm:mt-8 bg-green-500 hover:bg-green-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg font-semibold flex items-center gap-3 mx-auto sm:mx-0 shadow-md">
+              Book Appointment
+              <span className="bg-white text-green-500 rounded-full w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Feature Boxes - responsive positioning */}
+      <div className="relative md:absolute md:bottom-[-50px] md:left-1/2 md:-translate-x-1/2 w-full md:w-[90%] bg-white rounded-3xl shadow-lg p-6 md:p-8 mt-12 md:mt-0 mx-auto z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+          {/* Card 1 */}
+          <div className="text-center md:text-left">
+            <UserCheck className="w-10 h-10 sm:w-12 sm:h-12 text-green-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Trusted Professionals
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Experienced and certified mental health experts.
+            </p>
+          </div>
+
+          {/* Card 2 */}
+          <div className="text-center md:text-left">
+            <ShieldCheck className="w-10 h-10 sm:w-12 sm:h-12 text-blue-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Confidential & Secure
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Your privacy is our top priority.
+            </p>
+          </div>
+
+          {/* Card 3 */}
+          <div className="text-center md:text-left">
+            <HeartHandshake className="w-10 h-10 sm:w-12 sm:h-12 text-pink-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Personalized Care
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Tailored support for your unique needs.
+            </p>
+          </div>
+
+          {/* Card 4 */}
+          <div className="text-center md:text-left">
+            <Clock3 className="w-10 h-10 sm:w-12 sm:h-12 text-purple-500 mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[#1F2560] mt-3">
+              Flexible & Convenient
+            </h3>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">
+              Online and in-person sessions available.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
       {/* ========== CARE DESIGNED AROUND YOU ========== */}
       <section className="max-w-7xl mx-auto py-20 px-8">
@@ -403,100 +643,100 @@ export default function Home() {
 
 
            <section className="bg-white py-20 px-6 md:px-8">
-    <div className="max-w-7xl mx-auto text-center">
-      <div className="mb-6">
-        <span className="inline-flex items-center gap-2 bg-green-50 text-green-700 rounded-full px-4 py-1.5 text-sm font-medium">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-          </svg>
-          Real results, real impact
-        </span>
-      </div>
-      <h2 className="text-4xl md:text-5xl font-bold text-blue-900 tracking-tight">
-        Our Measurable Impact
-      </h2>
-      <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-lg">
-        At Mibo, we focus on improving emotional wellness, enhancing mental resilience, and creating measurable impact for individuals and organizations alike.
-      </p>
+              <div className="max-w-7xl mx-auto text-center">
+                <div className="mb-6">
+                  <span className="inline-flex items-center gap-2 bg-green-50 text-green-700 rounded-full px-4 py-1.5 text-sm font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    Real results, real impact
+                  </span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-blue-900 tracking-tight">
+                  Our Measurable Impact
+                </h2>
+                <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-lg">
+                  At Mibo, we focus on improving emotional wellness, enhancing mental resilience, and creating measurable impact for individuals and organizations alike.
+                </p>
 
-      {/* <!-- 4 impact cards with SVG icons and percentages --> */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
-        {/* <!-- Card 1 - 92% with SVG (heart / well-being) --> */}
-        <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
-          <div className="w-12 h-12 mx-auto bg-green-100 rounded-full flex items-center justify-center text-green-700 mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-            </svg>
-          </div>
-          <div className="text-5xl font-extrabold text-green-600">92%</div>
-          <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
+                {/* <!-- 4 impact cards with SVG icons and percentages --> */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
+                  {/* <!-- Card 1 - 92% with SVG (heart / well-being) --> */}
+                  <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div className="w-12 h-12 mx-auto bg-green-100 rounded-full flex items-center justify-center text-green-700 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                      </svg>
+                    </div>
+                    <div className="text-5xl font-extrabold text-green-600">92%</div>
+                    <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
 
-          <p className="text-gray-700 mt-3 font-medium">Reported improved emotional well-being</p>
-        </div>
-        {/* <!-- Card 2 - 87% with SVG (anxiety reduction / calm leaf) --> */}
-        <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
-          <div className="w-12 h-12 mx-auto bg-teal-100 rounded-full flex items-center justify-center text-teal-700 mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.636 5.818a9 9 0 0112.728 0M12 3v6m0 0-3-3m3 3 3-3M6 12h.01M12 12h.01M18 12h.01M5.818 18.364a9 9 0 0012.728 0M12 21v-6m0 0 3 3m-3-3-3 3" />
-            </svg>
-          </div>
-          <div className="text-5xl font-extrabold text-blue-600">87%</div>
-          <div className="w-16 h-1 bg-blue-500 my-4 mx-auto"></div>
+                    <p className="text-gray-700 mt-3 font-medium">Reported improved emotional well-being</p>
+                  </div>
+                  {/* <!-- Card 2 - 87% with SVG (anxiety reduction / calm leaf) --> */}
+                  <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div className="w-12 h-12 mx-auto bg-teal-100 rounded-full flex items-center justify-center text-teal-700 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.636 5.818a9 9 0 0112.728 0M12 3v6m0 0-3-3m3 3 3-3M6 12h.01M12 12h.01M18 12h.01M5.818 18.364a9 9 0 0012.728 0M12 21v-6m0 0 3 3m-3-3-3 3" />
+                      </svg>
+                    </div>
+                    <div className="text-5xl font-extrabold text-blue-600">87%</div>
+                    <div className="w-16 h-1 bg-blue-500 my-4 mx-auto"></div>
 
-          <p className="text-gray-700 mt-3 font-medium">Experienced reduction in anxiety levels</p>
-        </div>
-        {/* <!-- Card 3 - 76% with SVG (productivity / focus) --> */}
-        <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
-          <div className="w-12 h-12 mx-auto bg-amber-100 rounded-full flex items-center justify-center text-amber-700 mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A9 9 0 0111.745 3M12 3v6l3 3M12 21a9 9 0 100-18" />
-            </svg>
-          </div>
-          <div className="text-5xl font-extrabold text-green-600">76%</div>
-          <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
+                    <p className="text-gray-700 mt-3 font-medium">Experienced reduction in anxiety levels</p>
+                  </div>
+                  {/* <!-- Card 3 - 76% with SVG (productivity / focus) --> */}
+                  <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div className="w-12 h-12 mx-auto bg-amber-100 rounded-full flex items-center justify-center text-amber-700 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A9 9 0 0111.745 3M12 3v6l3 3M12 21a9 9 0 100-18" />
+                      </svg>
+                    </div>
+                    <div className="text-5xl font-extrabold text-green-600">76%</div>
+                    <div className="w-16 h-1 bg-green-500 my-4 mx-auto"></div>
 
-          <p className="text-gray-700 mt-3 font-medium">Felt more productive and focused at work</p>
-        </div>
-        {/* <!-- Card 4 - 94% with SVG (engagement / therapy retention) --> */}
-        <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition">
-          <div className="w-12 h-12 mx-auto bg-purple-100 rounded-full flex items-center justify-center text-purple-700 mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
-          </div>
-          <div className="text-5xl font-extrabold text-blue-600">94%</div>
-          <div className="w-16 h-1 bg-blue-500 my-4 mx-auto"></div>
+                    <p className="text-gray-700 mt-3 font-medium">Felt more productive and focused at work</p>
+                  </div>
+                  {/* <!-- Card 4 - 94% with SVG (engagement / therapy retention) --> */}
+                  <div className="impact-stat-card bg-gradient-to-br from-gray-50 to-white rounded-2xl p-7 shadow-sm border border-gray-100  hover:shadow-md transition">
+                    <div className="w-12 h-12 mx-auto bg-purple-100 rounded-full flex items-center justify-center text-purple-700 mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
+                    </div>
+                    <div className="text-5xl font-extrabold text-blue-600">94%</div>
+                    <div className="w-16 h-1 bg-blue-500 my-4 mx-auto"></div>
 
-          <p className="text-gray-700 mt-3 font-medium">Showed higher engagement in therapy</p>
-        </div>
-      </div>
+                    <p className="text-gray-700 mt-3 font-medium">Showed higher engagement in therapy</p>
+                  </div>
+                </div>
 
-      {/* <!-- 100+ Organizations transformed card (large blue badge) --> */}
-      <div className="mt-16 bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-12 px-6 rounded-3xl shadow-2xl transition-all hover:shadow-xl">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 max-w-3xl mx-auto">
-          <div className="flex items-center gap-4">
-            <div className="bg-white/20 rounded-full p-3 backdrop-blur-sm">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 md:h-10 md:w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-              </svg>
-            </div>
-            <div className="text-left">
-              <p className="text-4xl md:text-5xl font-black tracking-tight">100+ Organizations transformed</p>
-              <p className="text-blue-100 text-lg mt-1">Through our mental wellness programs</p>
-            </div>
-          </div>
-          <div className="bg-white/10 rounded-full px-5 py-2 text-sm font-medium backdrop-blur-sm">
-            ⚡️ Trusted by global leaders
-          </div>
-        </div>
-        <div className="flex justify-center gap-6 mt-8 text-blue-100 text-sm flex-wrap">
-          <span className="flex items-center gap-1">🏢 Enterprise wellbeing</span>
-          <span className="flex items-center gap-1">🌱 Inclusive programs</span>
-          <span className="flex items-center gap-1">📈 Measurable ROI</span>
-        </div>
-      </div>
-    </div>
-  </section>
+                {/* <!-- 100+ Organizations transformed card (large blue badge) --> */}
+                <div className="mt-16 bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-12 px-6 rounded-3xl shadow-2xl transition-all hover:shadow-xl">
+                  <div className="flex flex-col md:flex-row items-center justify-between gap-6 max-w-3xl mx-auto">
+                    <div className="flex items-center gap-4">
+                      <div className="bg-white/20 rounded-full p-3 backdrop-blur-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 md:h-10 md:w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                      </div>
+                      <div className="text-left">
+                        <p className="text-4xl md:text-5xl font-black tracking-tight">100+ Organizations transformed</p>
+                        <p className="text-blue-100 text-lg mt-1">Through our mental wellness programs</p>
+                      </div>
+                    </div>
+                    <div className="bg-white/10 rounded-full px-5 py-2 text-sm font-medium backdrop-blur-sm">
+                      ⚡️ Trusted by global leaders
+                    </div>
+                  </div>
+                  <div className="flex justify-center gap-6 mt-8 text-blue-100 text-sm flex-wrap">
+                    <span className="flex items-center gap-1">🏢 Enterprise wellbeing</span>
+                    <span className="flex items-center gap-1">🌱 Inclusive programs</span>
+                    <span className="flex items-center gap-1">📈 Measurable ROI</span>
+                  </div>
+                </div>
+              </div>
+            </section>
 
 
 
@@ -952,235 +1192,235 @@ export default function Home() {
 
 
 
-{/* ========== CARE AND SUPPORT NEAR YOU ========== */}
+          {/* ========== CARE AND SUPPORT NEAR YOU ========== */}
 
-<section className="bg-gray-50 py-20 px-8">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-blue-900 text-center">
-          Care and Support Near You
-        </h2>
-        <p className="text-center text-gray-600 mt-3 mb-12 max-w-2xl mx-auto">
-          Our centres across India bring expert mental health care close to you.
-          Each location is designed for comfort, privacy, and healing.
-        </p>
+        <section className="bg-gray-50 py-20 px-8">
+              <div className="max-w-7xl mx-auto">
+                <h2 className="text-4xl font-bold text-blue-900 text-center">
+                  Care and Support Near You
+                </h2>
+                <p className="text-center text-gray-600 mt-3 mb-12 max-w-2xl mx-auto">
+                  Our centres across India bring expert mental health care close to you.
+                  Each location is designed for comfort, privacy, and healing.
+                </p>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          
-          {/* Bengaluru Card */}
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
-            <div className="relative">
-              <img src={MIBOOFFICE} alt="Bengaluru" className="w-full h-64 object-cover" />
-              <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
-                <h3 className="font-bold text-2xl text-gray-800">Bengaluru</h3>
-              </div>
-              <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
-                <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-                <span className="font-semibold">4.8</span>
-                <span className="text-gray-500 text-sm">(642)</span>
-              </div>
-            </div>
+                <div className="grid md:grid-cols-3 gap-8">
+                  
+                  {/* Bengaluru Card */}
+                  <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
+                    <div className="relative">
+                      <img src={MIBOOFFICE} alt="Bengaluru" className="w-full h-64 object-cover" />
+                      <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
+                        <h3 className="font-bold text-2xl text-gray-800">Bengaluru</h3>
+                      </div>
+                      <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
+                        <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                        <span className="font-semibold">4.8</span>
+                        <span className="text-gray-500 text-sm">(642)</span>
+                      </div>
+                    </div>
 
-            <div className="p-6 flex flex-col flex-grow">
-              <p className="text-gray-600 text-sm">
-                Our Bengaluru centres offer professional mental health care in a serene environment.
-              </p>
+                    <div className="p-6 flex flex-col flex-grow">
+                      <p className="text-gray-600 text-sm">
+                        Our Bengaluru centres offer professional mental health care in a serene environment.
+                      </p>
 
-              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
-                LOCATIONS IN BENGALURU
-              </h4>
-              <div className="grid grid-cols-2 gap-y-3 mt-2">
-                {["Indiranagar", "Whitefield", "Koramangala", "Jayanagar"].map((loc) => (
-                  <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
-                    <MapPin className="w-4 h-4 text-teal-500" />
-                    <span>{loc}</span>
+                      <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                        LOCATIONS IN BENGALURU
+                      </h4>
+                      <div className="grid grid-cols-2 gap-y-3 mt-2">
+                        {["Indiranagar", "Whitefield", "Koramangala", "Jayanagar"].map((loc) => (
+                          <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
+                            <MapPin className="w-4 h-4 text-teal-500" />
+                            <span>{loc}</span>
+                          </div>
+                        ))}
+                      </div>
+
+                      <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                        AMENITIES
+                      </h4>
+                      <div className="flex flex-wrap gap-3 mt-2">
+                        {["Free Parking", "Wheelchair Accessible", "AC Consultation Rooms", "Waiting Lounge"].map((item) => (
+                          <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                            {item}
+                          </span>
+                        ))}
+                      </div>
+
+                      <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                        View Centre Details
+                      </button>
+                    </div>
                   </div>
-                ))}
-              </div>
 
-              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
-                AMENITIES
-              </h4>
-              <div className="flex flex-wrap gap-3 mt-2">
-                {["Free Parking", "Wheelchair Accessible", "AC Consultation Rooms", "Waiting Lounge"].map((item) => (
-                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
-                    {item}
-                  </span>
-                ))}
-              </div>
+                  {/* Mumbai Card */}
+                  <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
+                    <div className="relative">
+                      <img src={MIBOOFFICE} alt="Mumbai" className="w-full h-64 object-cover" />
+                      <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
+                        <h3 className="font-bold text-2xl text-gray-800">Mumbai</h3>
+                      </div>
+                      <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
+                        <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                        <span className="font-semibold">4.7</span>
+                        <span className="text-gray-500 text-sm">(289)</span>
+                      </div>
+                    </div>
 
-              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
-                View Centre Details
-              </button>
-            </div>
-          </div>
+                    <div className="p-6 flex flex-col flex-grow">
+                      <p className="text-gray-600 text-sm">
+                        Find peace and professional care at our Mumbai locations.
+                      </p>
 
-          {/* Mumbai Card */}
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
-            <div className="relative">
-              <img src={MIBOOFFICE} alt="Mumbai" className="w-full h-64 object-cover" />
-              <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
-                <h3 className="font-bold text-2xl text-gray-800">Mumbai</h3>
-              </div>
-              <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
-                <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-                <span className="font-semibold">4.7</span>
-                <span className="text-gray-500 text-sm">(289)</span>
-              </div>
-            </div>
+                      <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                        LOCATIONS IN MUMBAI
+                      </h4>
+                      <div className="grid grid-cols-2 gap-y-3 mt-2">
+                        {["Bandra", "Andheri", "Powai", "Lower Parel"].map((loc) => (
+                          <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
+                            <MapPin className="w-4 h-4 text-teal-500" />
+                            <span>{loc}</span>
+                          </div>
+                        ))}
+                      </div>
 
-            <div className="p-6 flex flex-col flex-grow">
-              <p className="text-gray-600 text-sm">
-                Find peace and professional care at our Mumbai locations.
-              </p>
+                      <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                        AMENITIES
+                      </h4>
+                      <div className="flex flex-wrap gap-3 mt-2">
+                        {["Metro Access", "Valet Parking", "Cafeteria", "Library"].map((item) => (
+                          <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                            {item}
+                          </span>
+                        ))}
+                      </div>
 
-              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
-                LOCATIONS IN MUMBAI
-              </h4>
-              <div className="grid grid-cols-2 gap-y-3 mt-2">
-                {["Bandra", "Andheri", "Powai", "Lower Parel"].map((loc) => (
-                  <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
-                    <MapPin className="w-4 h-4 text-teal-500" />
-                    <span>{loc}</span>
+                      <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                        View Centre Details
+                      </button>
+                    </div>
                   </div>
-                ))}
-              </div>
 
-              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
-                AMENITIES
-              </h4>
-              <div className="flex flex-wrap gap-3 mt-2">
-                {["Metro Access", "Valet Parking", "Cafeteria", "Library"].map((item) => (
-                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
-                    {item}
-                  </span>
-                ))}
-              </div>
+                  {/* Kochi Card */}
+                  <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
+                    <div className="relative">
+                      <img src={MIBOOFFICE} alt="Kochi" className="w-full h-64 object-cover" />
+                      <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
+                        <h3 className="font-bold text-2xl text-gray-800">Kochi</h3>
+                      </div>
+                      <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
+                        <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                        <span className="font-semibold">4.9</span>
+                        <span className="text-gray-500 text-sm">(153)</span>
+                      </div>
+                    </div>
 
-              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
-                View Centre Details
-              </button>
-            </div>
-          </div>
+                    <div className="p-6 flex flex-col flex-grow">
+                      <p className="text-gray-600 text-sm">
+                        Experience compassionate care in our Kochi facilities designed for professional care.
+                      </p>
 
-          {/* Kochi Card */}
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition flex flex-col">
-            <div className="relative">
-              <img src={MIBOOFFICE} alt="Kochi" className="w-full h-64 object-cover" />
-              <div className="absolute top-4 left-4 bg-white px-5 py-2 rounded-full shadow">
-                <h3 className="font-bold text-2xl text-gray-800">Kochi</h3>
-              </div>
-              <div className="absolute top-4 right-4 bg-white px-4 py-2 rounded-full shadow flex items-center gap-1">
-                <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-                <span className="font-semibold">4.9</span>
-                <span className="text-gray-500 text-sm">(153)</span>
-              </div>
-            </div>
+                      <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                        LOCATIONS IN KOCHI
+                      </h4>
+                      <div className="grid grid-cols-2 gap-y-3 mt-2">
+                        {["Marine Drive", "Kakkanaad", "Ernakulam", "Edappally"].map((loc) => (
+                          <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
+                            <MapPin className="w-4 h-4 text-teal-500" />
+                            <span>{loc}</span>
+                          </div>
+                        ))}
+                      </div>
 
-            <div className="p-6 flex flex-col flex-grow">
-              <p className="text-gray-600 text-sm">
-                Experience compassionate care in our Kochi facilities designed for professional care.
-              </p>
+                      <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
+                        AMENITIES
+                      </h4>
+                      <div className="flex flex-wrap gap-3 mt-2">
+                        {["Sea View", "Garden Area", "Yoga Studio", "Meditation Space"].map((item) => (
+                          <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
+                            {item}
+                          </span>
+                        ))}
+                      </div>
 
-              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
-                LOCATIONS IN KOCHI
-              </h4>
-              <div className="grid grid-cols-2 gap-y-3 mt-2">
-                {["Marine Drive", "Kakkanaad", "Ernakulam", "Edappally"].map((loc) => (
-                  <div key={loc} className="flex items-center gap-2 text-gray-600 text-sm">
-                    <MapPin className="w-4 h-4 text-teal-500" />
-                    <span>{loc}</span>
+                      <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
+                        View Centre Details
+                      </button>
+                    </div>
                   </div>
-                ))}
+                </div>
               </div>
+        </section>
 
-              <h4 className="font-semibold text-blue-800 text-sm uppercase tracking-wide mt-4">
-                AMENITIES
-              </h4>
-              <div className="flex flex-wrap gap-3 mt-2">
-                {["Sea View", "Garden Area", "Yoga Studio", "Meditation Space"].map((item) => (
-                  <span key={item} className="bg-teal-50 text-teal-600 px-4 py-2 rounded-full text-sm">
-                    {item}
-                  </span>
-                ))}
-              </div>
 
-              <button className="mt-8 w-full bg-[#163A7A] hover:bg-[#102f66] text-white py-4 rounded-full font-semibold text-lg transition">
-                View Centre Details
-              </button>
-            </div>
-          </div>
+
+
+
+        {/* Sticky Book Appointment Button */}
+        <div className="fixed bottom-6 right-6 z-50">
+            <button className="bg-[#34b9a5] hover:bg-[#2a9d8c] text-white px-6 py-3 rounded-full shadow-xl font-semibold transition duration-300">
+
+          {/* <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-xl font-semibold transition duration-300"> */}
+            Book Appointment
+          </button>
         </div>
-      </div>
-    </section>
-
-
-
-
-
-{/* Sticky Book Appointment Button */}
-<div className="fixed bottom-6 right-6 z-50">
-    <button className="bg-[#34b9a5] hover:bg-[#2a9d8c] text-white px-6 py-3 rounded-full shadow-xl font-semibold transition duration-300">
-
-  {/* <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-xl font-semibold transition duration-300"> */}
-    Book Appointment
-  </button>
-</div>
 
 
 
 
                {/* <!-- Contact Section: exactly as described in the image --> */}
-  <section className="py-20 px-6 md:px-8 bg-gradient-to-br from-gray-50 to-white">
-    <div className="max-w-4xl mx-auto text-center">
-      
-      {/* <!-- heading --> */}
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-        Still not sure what to do?
-      </h2>
-      
-      {/* <!-- phone call to action with large number --> */}
-      <div className="mt-6">
-        <p className="text-gray-600 text-lg">Please call us, we will sort it out</p>
-        <a href="tel:+919083335000" className="inline-block mt-2 text-3xl md:text-4xl font-extrabold text-green-600 hover:text-green-700 transition">
-          +91 90833 35000
-        </a>
-      </div>
-      
-      {/* <!-- divider (optional, for visual clarity) --> */}
-      <div className="w-20 h-1 bg-green-500 rounded-full mx-auto my-10"></div>
-      
-      {/* <!-- address block --> */}
-      <div className="mt-4">
-        <h3 className="text-xl font-semibold text-blue-900">Kochi Office</h3>
-        <address className="not-italic text-gray-700 mt-2 leading-relaxed max-w-md mx-auto">
-          38/1818, Kannanthodath Road, Near Changampuzha Park<br />
-          Metro Station, Edappally P.O., Kochi, Ernakulam, PIN: 682024
-        </address>
-      </div>
-      
-      {/* <!-- email block --> */}
-      <div className="mt-8">
-        <h3 className="text-xl font-semibold text-blue-900">Email Us</h3>
-        <a href="mailto:reach@mibocare.com" className="text-green-600 text-lg font-medium hover:underline">
-          reach@mibocare.com
-        </a>
-      </div>
-      
-    </div>
-  </section>
- 
-      {/* ========== SUBMIT APPLICATION CTA ========== */}
-      {/*<section className="bg-blue-900 text-white py-16 px-8">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold">Ready to begin your journey?</h2>
-          <p className="text-blue-100 mt-2 mb-6">
-            Take the first step towards better mental health.
-          </p>
-          <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition">
-            Submit Application
-          </button>
-        </div>
-      </section> */}
+              <section className="py-20 px-6 md:px-8 bg-gradient-to-br from-gray-50 to-white">
+                <div className="max-w-4xl mx-auto text-center">
+                  
+                  {/* <!-- heading --> */}
+                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+                    Still not sure what to do?
+                  </h2>
+                  
+                  {/* <!-- phone call to action with large number --> */}
+                  <div className="mt-6">
+                    <p className="text-gray-600 text-lg">Please call us, we will sort it out</p>
+                    <a href="tel:+919083335000" className="inline-block mt-2 text-3xl md:text-4xl font-extrabold text-green-600 hover:text-green-700 transition">
+                      +91 90833 35000
+                    </a>
+                  </div>
+                  
+                  {/* <!-- divider (optional, for visual clarity) --> */}
+                  <div className="w-20 h-1 bg-green-500 rounded-full mx-auto my-10"></div>
+                  
+                  {/* <!-- address block --> */}
+                  <div className="mt-4">
+                    <h3 className="text-xl font-semibold text-blue-900">Kochi Office</h3>
+                    <address className="not-italic text-gray-700 mt-2 leading-relaxed max-w-md mx-auto">
+                      38/1818, Kannanthodath Road, Near Changampuzha Park<br />
+                      Metro Station, Edappally P.O., Kochi, Ernakulam, PIN: 682024
+                    </address>
+                  </div>
+                  
+                  {/* <!-- email block --> */}
+                  <div className="mt-8">
+                    <h3 className="text-xl font-semibold text-blue-900">Email Us</h3>
+                    <a href="mailto:reach@mibocare.com" className="text-green-600 text-lg font-medium hover:underline">
+                      reach@mibocare.com
+                    </a>
+                  </div>
+                  
+                </div>
+              </section>
+    
+          {/* ========== SUBMIT APPLICATION CTA ========== */}
+          {/*<section className="bg-blue-900 text-white py-16 px-8">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-bold">Ready to begin your journey?</h2>
+              <p className="text-blue-100 mt-2 mb-6">
+                Take the first step towards better mental health.
+              </p>
+              <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition">
+                Submit Application
+              </button>
+            </div>
+          </section> */}
     </div>
   );
 }
